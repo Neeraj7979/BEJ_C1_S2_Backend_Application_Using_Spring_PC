@@ -1,5 +1,7 @@
 package com.niit.bej.domain;
 
+import java.util.Objects;
+
 public class ProductOrder implements Order {
     private String orderId;
     private int orderQuantity;
@@ -36,5 +38,18 @@ public class ProductOrder implements Order {
 
     public void setTotalAmount(double totalAmount) {
         this.totalAmount = totalAmount;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ProductOrder that = (ProductOrder) o;
+        return orderQuantity == that.orderQuantity && Double.compare(that.totalAmount, totalAmount) == 0 && Objects.equals(orderId, that.orderId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(orderId, orderQuantity, totalAmount);
     }
 }
