@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd799a15-3e26-4628-b4d3-b745e270933a" name="Changes" comment="Created to string methods for the product fields" />
+    <list default="true" id="fd799a15-3e26-4628-b4d3-b745e270933a" name="Changes" comment="Created Class BeanConfig in the package Bean">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/bean/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/bean/BeanConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M2Uj48jk7livt3D6IUqoAoArpd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -101,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676966009406</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Reformatted the product class">
+      <created>1676966054349</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676966054350</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created Class BeanConfig in the package Bean">
+      <created>1676966261789</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676966261789</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +142,9 @@
     <MESSAGE value="Created getter and setter for the product fields" />
     <MESSAGE value="Created equals and hash code for the product fields" />
     <MESSAGE value="Created to string methods for the product fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created to string methods for the product fields" />
+    <MESSAGE value="Reformatted the product class" />
+    <MESSAGE value="Created Class BeanConfig in the package Bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Class BeanConfig in the package Bean" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
