@@ -6,14 +6,15 @@ import org.springframework.context.annotation.Bean;
 
 public class BeanConfig {
 
-    @Bean
-    public Product productDetails() {
-        return new Product("A101", "Samsung-Galaxy S-22", 10, "Smart-Phone");
-    }
 
     @Bean
     public ProductOrder printProductOrder() {
         return new ProductOrder("P01", 5, 65000);
+    }
+
+    @Bean
+    public Product createProduct() {
+        return new Product("A101", "Galaxy S-22", 100, "Smart Phones", printProductOrder());
     }
 
 }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd799a15-3e26-4628-b4d3-b745e270933a" name="Changes" comment="Reformatted the class ProductOrder" />
+    <list default="true" id="fd799a15-3e26-4628-b4d3-b745e270933a" name="Changes" comment="Created bean for productOrder class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/bean/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/bean/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/domain/Product.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676967451649</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Created bean for productOrder class">
+      <created>1676967772263</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676967772263</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +221,8 @@
     <MESSAGE value="Created  equals and hash code for Product order fields" />
     <MESSAGE value="Created to string methods Product order fields" />
     <MESSAGE value="Reformatted the class ProductOrder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformatted the class ProductOrder" />
+    <MESSAGE value="Created bean for productOrder class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created bean for productOrder class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
