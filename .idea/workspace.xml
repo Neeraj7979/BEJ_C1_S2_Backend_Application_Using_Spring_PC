@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd799a15-3e26-4628-b4d3-b745e270933a" name="Changes" comment="Created Bean for the product Details">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/App.java" afterDir="false" />
+    <list default="true" id="fd799a15-3e26-4628-b4d3-b745e270933a" name="Changes" comment="Created fields for product order class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/domain/ProductOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/domain/ProductOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -126,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676966585577</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created interface order">
+      <created>1676966896168</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676966896168</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Created class product order implement order">
+      <created>1676966949445</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676966949445</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Created fields for product order class">
+      <created>1676967065724</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676967065724</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +174,10 @@
     <MESSAGE value="Reformatted the product class" />
     <MESSAGE value="Created Class BeanConfig in the package Bean" />
     <MESSAGE value="Created Bean for the product Details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Bean for the product Details" />
+    <MESSAGE value="Created interface order" />
+    <MESSAGE value="Created class product order implement order" />
+    <MESSAGE value="Created fields for product order class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created fields for product order class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
