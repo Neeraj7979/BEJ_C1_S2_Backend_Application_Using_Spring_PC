@@ -55,10 +55,6 @@ public class ProductOrder implements Order {
 
     @Override
     public String toString() {
-        return "ProductOrder{" +
-                "orderId='" + orderId + '\'' +
-                ", orderQuantity=" + orderQuantity +
-                ", totalAmount=" + totalAmount +
-                '}';
+        return "ProductOrder{" + "orderId='" + orderId + '\'' + ", orderQuantity=" + orderQuantity + ", totalAmount=" + totalAmount + '}';
     }
 }
