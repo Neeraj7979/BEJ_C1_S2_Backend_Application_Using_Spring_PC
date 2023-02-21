@@ -52,4 +52,13 @@ public class ProductOrder implements Order {
     public int hashCode() {
         return Objects.hash(orderId, orderQuantity, totalAmount);
     }
+
+    @Override
+    public String toString() {
+        return "ProductOrder{" +
+                "orderId='" + orderId + '\'' +
+                ", orderQuantity=" + orderQuantity +
+                ", totalAmount=" + totalAmount +
+                '}';
+    }
 }
