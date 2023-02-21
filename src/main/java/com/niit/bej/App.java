@@ -12,6 +12,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(BeanConfig.class);
         ProductOrder order1 = applicationContext.getBean(ProductOrder.class);
+        System.out.println(order1);
 
     }
 }
