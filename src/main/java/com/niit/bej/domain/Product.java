@@ -6,4 +6,13 @@ public class Product {
     private int productQuantity;
     private String productCategory;
 
+    public Product(String productId, String productName, int productQuantity, String productCategory) {
+        this.productId = productId;
+        this.productName = productName;
+        this.productQuantity = productQuantity;
+        this.productCategory = productCategory;
+    }
+
+    public Product() {
+    }
 }
